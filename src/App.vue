@@ -21,7 +21,7 @@
   </section>
 
 
-  <div class="container">
+
 
 
 
@@ -39,22 +39,29 @@
 
       </div>
     </section>
-  </div>
 
 
-  <div class="container">
-    <div id="biography">
-      <div class="row">
-        <div class="col-7">
 
-          <p>
-            I’m Karlie Kloss, supermodel, entrepreneur and philanthropist. I started my career as a model, and have since discovered my passion for technology, entrepreneurship, & storytelling. When I’m not modeling, I spend my time working on my STEAM
-            focused non-profit Kode With Klossy, my YouTube channel, Klossy, & supporting the next generation of designers on Project Runway.</p>
+      <section id="welcome-tour" class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+          <h3>
+          WELCOME TO OUR
+          </h3>
+          <h1>
+            MODELING AGENCY...
+          </h1>
+        </div>
+          <div class="col-md-6">
+            <h4>FRINGILLA LACUS ORCI ET NUNC. SED DIGNISSIM, LECTUS NON MATTIS FAUCIBUS, NISL NIBH IACULIS ANTE, SIT AMET FRINGILLA VELIT EST SED DIAM. VESTIBULUM VESTIBULUM.</h4>
+            <p>Praesent accumsan ac velit vitae auctor. Proin pharetra consectetur leo, nec porta magna varius nec. Sed vehicula eros neque, a venenatis est lobortis id. Aenean id lectus sit amet odio pellentesque gravida. Suspendisse potenti. Praesent non nunc ac orci facilisis auctor. Cras metus quam, condimentum ut venenatis in, rutrum eget diam. Sed vehicula at risus quis fringilla</p>
+          </div>
         </div>
       </div>
 
-    </div>
-  </div>
+      </section>
+
 
   <div id="news" class="container">
     <div class="row">
@@ -62,34 +69,50 @@
     </div>
   </div>
 
-  <div id="projects-campagin" class="container-fluid">
+  <div id="projects-campagin" class="container">
     <div class="row">
-      <div class="col-sm-6 col-xs-12 col align-self-start" style="border:1px solid green;text-align:center;height:200px;"></div>
-      <div class="col-sm-6 col-xs-12 text-center">
-      <h1>Projects</h1>
-        <img src="~@/assets/front-flowers.png" alt=""></div>
-        <div class="col-sm-6 col-xs-12 " style="border:1px solid green;text-align:center"></div>
+      <div class="col-md-4 projects">
+        <img src="~@/assets/front-flowers-nobackground.png" class="img-projects" alt="" style="position:absolute;max-width:400px;height:100%;right:0.1%;">
 
+        <h1 class="title-projects">Products</h1>
+      </div>
+      <div class="col-md-4 projects">
+        <img src="~@/assets/front-flowers-nobackground.png" class="img-projects" alt="" style="position:absolute;max-width:400px;height:100%;right:0.1%;">
+
+        <h1 class="title-projects">Gallery</h1>
+      </div>
+      <div class="col-md-4 projects">
+        <img src="~@/assets/front-flowers-nobackground.png" class="img-projects" alt="" style="position:absolute;max-width:400px;height:100%;right:0.1%;">
+
+        <h1 class="title-projects">Work-out Plans</h1>
+      </div>
     </div>
 
-    <div class="row">
-      <div class="col-sm-6 col-xs-12 text-center" style="padding:0px;margin:0px;">
-      <h1>Projects</h1>
-        <img src="~@/assets/front-flowers.png" alt="" ></div>
-        <img src="~@/assets/front-flowers.png" alt="">
+
+  </div>
+
+
+
+
+  <section id="catalog">
+    <div class="container">
+
+      <h2 class="catalog-header">NEW MODELS</h2>
+      <div class="row">
+        <div class="col-md-3 col-sm-6"><div class="image-section"><img src="~@/assets/front-flowers.png" alt="" class="img-circle"><h4 class="catalog-text-header">Name</h4></div><p class="catalog-text">
+
+SFATI FRINCO
+Portugal
+pharetra consectetur lnec port magn. Sed vehicula eros nequelectus.</p></div>
+        <div class="col-md-3 col-sm-6"><img src="~@/assets/front-flowers.png" alt="" class="img-circle"><h4>Name</h4><p>sub name</p></div>
+        <div class="col-md-3 col-sm-6"><img src="~@/assets/front-flowers.png" alt="" class="img-circle"><h4>Name</h4><p>sub name</p></div>
+          <div class="col-md-3 col-sm-6"><img src="~@/assets/front-flowers.png" alt="" class="img-circle"><h4>Name</h4><p>sub name</p></div>
+      </div>
     </div>
-  </div>
+  </section>
 
 
-  <div id="gallery">
-
-  </div>
-  <div id="follow-me">
-
-  </div>
-
-
-
+https://www.gracethemes.com/demo/modeling/
 
 
 </div>
@@ -108,6 +131,19 @@ export default {
 #app {
   font-family: "monserrate", Arial, sans-serif;
   overflow-x: hidden;
+}
+.container{
+
+  padding: 0px;
+
+}
+.border{
+
+}
+.row{
+
+  padding: 0px;
+  margin:0px;
 }
 
 
@@ -214,10 +250,8 @@ export default {
   text-shadow: 2px 2px rgb(29, 32, 32, 0.6);
 
 }
-.container{
-  border:3px solid red;
-  padding: 0px;
-}
+
+
 
 #biography {
 
@@ -231,6 +265,86 @@ export default {
 }
 
 
+#projects-campagin {
+
+}
+
+.img-projects:hover{
+opacity: 0.5;
+
+}
+
+.projects{
+
+  border: 1px solid green;
+  width: 100%;
+  height: 450px;
+
+/*  background-image: url('~@/assets/front-flowers-nobackground.png'); /* fallback */
+    background-image:/* url('~@/assets/front-flowers-nobackground.png'),*/ linear-gradient(#8c8c8c, #4d5167); /* W3C */
+
+  background-repeat: no-repeat;
+  background-position:right;
+  background-attachment: fixed;
+
+}
+
+.title-projects{
+  position: relative;
+  top:60%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  font-family: sans-serif,'monserrate';
+  font-weight: 700;
+  color: white;
+  text-shadow: 1px 1px rgb(29,27,32,0.6)
+}
+
+#welcome-tour{
+  background-color: #FAFAFA;
+}
+
+#catalog{
+
+}
+
+.catalog-header{
+  width: 100%;
+  text-align: center;
+  padding-bottom: 3%;
+
+  font-weight:bold;
+}
+.img-circle{
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 100%;
+  margin-bottom: 30px;
+}
+
+
+.image-section:hover .image-circle{
+width: 600%;
+  background-color: red;
+
+
+}
+.catalog-text-header{
+  color:black;
+  font-weight: bold;
+
+  text-align: center;
+}
+.catalog-text{
+  font-weight: 700;
+  font-family: 'Assistant', sans-serif;
+
+  text-align: center;
+}
 @media only screen and (max-width:600px) {
 #social-menu{
 
@@ -247,8 +361,6 @@ export default {
 }
 
 @media (min-width: 1200px) {
-    .container{
-        max-width: 1470px;
-    }
+
 }
 </style>
