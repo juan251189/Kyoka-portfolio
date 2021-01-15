@@ -229,6 +229,41 @@
 
 
 
+      <section id="modeling-agency">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-4 border">
+              <div>
+
+                  <div class="border"><span class='fas fa-heart' style='font-size:36px;float:left;background:red;padding:20px;border-radius:50%;color:white;margin-right:5px;'></span></div>
+
+                <div class="border">
+                  <h3>EASY TO CONTACT
+                  </h3>
+                  <p style="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa doloremque laudantore veritatis.
+                </p></div>
+
+
+              </div>
+            </div>
+            <div class="col-4" style="width:100%;"><img src="~@/assets/front-flowers-nobackground.png" alt="" class="border" style="width:100%;min-height:400px;"></div>
+            <div class="col-4 border">
+              <div>
+
+                  <div class="border"><span class='fas fa-heart' style='font-size:36px;float:left;background:red;padding:20px;border-radius:50%;color:white;margin-right:5px;'></span></div>
+
+                <div class="border">
+                  <h3>EASY TO CONTACT
+                  </h3>
+                  <p style="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa doloremque laudantore veritatis.
+                </p></div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
 
     <section id="catalog">
@@ -279,6 +314,8 @@
         </div>
       </div>
     </section>
+
+
 
 
   https://www.gracethemes.com/demo/modeling/
@@ -468,7 +505,9 @@ section {
 }
 
 
-#projects-campagin {}
+#projects-campagin {
+  margin-bottom: 70px;
+}
 
 .img-projects:hover {
   opacity: 0.5;
@@ -477,7 +516,6 @@ section {
 
 .projects {
 
-  border: 1px solid green;
   width: 100%;
   height: 450px;
 
