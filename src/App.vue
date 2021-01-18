@@ -131,18 +131,19 @@
 
 
 
-    <div>
+          <div>
 
-        <div class="border"><span class='fas fa-heart' style='font-size:36px;float:left;background:red;padding:20px;border-radius:50%;color:white;margin-right:5px;'></span></div>
+            <div class="border"><span class='fas fa-heart' style='font-size:36px;float:left;background:red;padding:20px;border-radius:50%;color:white;margin-right:5px;'></span></div>
 
-      <div class="border">
-        <h3>EASY TO CONTACT
-        </h3>
-        <p style="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa doloremque laudantore veritatis.
-      </p></div>
+            <div class="border">
+              <h3>EASY TO CONTACT
+              </h3>
+              <p style="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa doloremque laudantore veritatis.
+              </p>
+            </div>
 
 
-    </div>
+          </div>
 
 
 
@@ -152,13 +153,14 @@
         <div class="col-md-4">
           <div>
 
-              <div class="border"><span class='fas fa-heart' style='font-size:36px;float:left;background:red;padding:20px;border-radius:50%;color:white;margin-right:5px;'></span></div>
+            <div class="border"><span class='fas fa-heart' style='font-size:36px;float:left;background:red;padding:20px;border-radius:50%;color:white;margin-right:5px;'></span></div>
 
             <div class="border">
               <h3>EASY TO CONTACT
               </h3>
               <p style="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa doloremque laudantore veritatis.
-            </p></div>
+              </p>
+            </div>
 
 
           </div>
@@ -166,13 +168,14 @@
         <div class="col-md-4">
           <div>
 
-              <div class="border"><span class='fas fa-heart' style='font-size:36px;float:left;background:red;padding:20px;border-radius:50%;color:white;margin-right:5px;'></span></div>
+            <div class="border"><span class='fas fa-heart' style='font-size:36px;float:left;background:red;padding:20px;border-radius:50%;color:white;margin-right:5px;'></span></div>
 
             <div class="border">
               <h3>EASY TO CONTACT
               </h3>
               <p style="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa doloremque laudantore veritatis.
-            </p></div>
+              </p>
+            </div>
 
 
           </div>
@@ -182,13 +185,14 @@
           <div class="col-md-4">
             <div>
 
-                <div class="border"><span class='fas fa-heart' style='font-size:36px;float:left;background:red;padding:20px;border-radius:50%;color:white;margin-right:5px;'></span></div>
+              <div class="border"><span class='fas fa-heart' style='font-size:36px;float:left;background:red;padding:20px;border-radius:50%;color:white;margin-right:5px;'></span></div>
 
               <div class="border">
                 <h3>EASY TO CONTACT
                 </h3>
                 <p style="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa doloremque laudantore veritatis.
-              </p></div>
+                </p>
+              </div>
 
 
             </div>
@@ -196,13 +200,14 @@
           <div class="col-md-4">
             <div>
 
-                <div class="border"><span class='fas fa-heart' style='font-size:36px;float:left;background:red;padding:20px;border-radius:50%;color:white;margin-right:5px;'></span></div>
+              <div class="border"><span class='fas fa-heart' style='font-size:36px;float:left;background:red;padding:20px;border-radius:50%;color:white;margin-right:5px;'></span></div>
 
               <div class="border">
                 <h3>EASY TO CONTACT
                 </h3>
                 <p style="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa doloremque laudantore veritatis.
-              </p></div>
+                </p>
+              </div>
 
 
             </div>
@@ -210,13 +215,14 @@
           <div class="col-md-4">
             <div>
 
-                <div class="border"><span class='fas fa-heart' style='font-size:36px;float:left;background:red;padding:20px;border-radius:50%;color:white;margin-right:5px;'></span></div>
+              <div class="border"><i class='fas fa-heart' style='font-size:36px;float:left;background:red;padding:20px;border-radius:50%;color:white;margin-right:5px;'></i></div>
 
               <div class="border">
                 <h3>EASY TO CONTACT
                 </h3>
                 <p style="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa doloremque laudantore veritatis.
-              </p></div>
+                </p>
+              </div>
 
 
             </div>
@@ -229,91 +235,144 @@
 
 
 
-      <section id="modeling-agency">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-4 border">
-              <div>
+  <section id="modeling-agency">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-lg-4 col-sm-12 border modeling-agency-content" >
 
-                  <div class="border"><span class='fas fa-heart' style='font-size:36px;float:left;background:red;padding:20px;border-radius:50%;color:white;margin-right:5px;'></span></div>
-
-                <div class="border">
-                  <h3>EASY TO CONTACT
-                  </h3>
-                  <p style="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa doloremque laudantore veritatis.
-                </p></div>
+          <div class="row" v-for="(item,i) in information" :key="i">
 
 
-              </div>
+
+            <div class="border col-10" style="text-align:right;" >
+              <h3>{{item.title}}
+              </h3>
+              <p style="">{{item.content}}
+              </p>
             </div>
-            <div class="col-4" style="width:100%;"><img src="~@/assets/front-flowers-nobackground.png" alt="" class="border" style="width:100%;min-height:400px;"></div>
-            <div class="col-4 border">
-              <div>
-
-                  <div class="border"><span class='fas fa-heart' style='font-size:36px;float:left;background:red;padding:20px;border-radius:50%;color:white;margin-right:5px;'></span></div>
-
-                <div class="border">
-                  <h3>EASY TO CONTACT
-                  </h3>
-                  <p style="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa doloremque laudantore veritatis.
-                </p></div>
+            <div class="col-2 border"><i class='fas fa-heart fa-3x border' style='background:red;border-radius:50%;color:white;padding:20%;'></i></div>
 
 
-              </div>
-            </div>
+
           </div>
+
+
+
+
+
+
         </div>
-      </section>
+        <div class="col-lg-4 border" style="width:100%;text-align:center;overflow-x:hidden;"><img src="~@/assets/front-flowers-nobackground.png" alt="" class="border" style="max-width:758px;max-height:700px;"></div>
+        <div class="col-lg-4 col-sm-12 border modeling-agency-content">
+
+          <div class="row">
 
 
-    <section id="catalog">
-      <div class="container">
 
-        <h2 class="catalog-header">NEW MODELS</h2>
-        <div class="row">
-          <div class="col-md-3 col-sm-6">
-            <div class="image-section"><img src="~@/assets/front-flowers.png" alt="" class="img-circle">
-              <h4 class="catalog-text-header">Name</h4>
+            <div class="border col-10" style="text-align:right;">
+              <h3>EASY TO CONTACT
+              </h3>
+              <p style="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa doloremque laudantore veritatis.
+              </p>
             </div>
-            <p class="catalog-text">
+            <div class="col-2 border"><i class='fas fa-heart fa-3x border' style='background:red;border-radius:50%;color:white;padding:20%;'></i></div>
 
-              SFATI FRINCO
-              Portugal
-              pharetra consectetur lnec port magn. Sed vehicula eros nequelectus.</p>
+
+
           </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="image-section"><img src="~@/assets/front-flowers.png" alt="" class="img-circle">
-              <h4 class="catalog-text-header">Name</h4>
+
+          <div class="row">
+
+
+
+            <div class="border col-10" style="text-align:right;">
+              <h3>EASY TO CONTACT
+              </h3>
+              <p style="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa doloremque laudantore veritatis.
+              </p>
             </div>
-            <p class="catalog-text">
+            <div class="col-2 border"><i class='fas fa-heart fa-3x border' style='background:red;border-radius:50%;color:white;padding:20%;'></i></div>
 
-              SFATI FRINCO
-              Portugal
-              pharetra consectetur lnec port magn. Sed vehicula eros nequelectus.</p>
+
+
           </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="image-section"><img src="~@/assets/front-flowers.png" alt="" class="img-circle">
-              <h4 class="catalog-text-header">Name</h4>
+
+          <div class="row">
+
+
+
+            <div class="border col-10" style="text-align:right;">
+              <h3>EASY TO CONTACT
+              </h3>
+              <p style="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa doloremque laudantore veritatis.
+              </p>
             </div>
-            <p class="catalog-text">
+            <div class="col-2 border"><i class='fas fa-heart fa-3x border' style='background:red;border-radius:50%;color:white;padding:20%;'></i></div>
 
-              SFATI FRINCO
-              Portugal
-              pharetra consectetur lnec port magn. Sed vehicula eros nequelectus.</p>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="image-section"><img src="~@/assets/front-flowers.png" alt="" class="img-circle">
-              <h4 class="catalog-text-header">Name</h4>
-            </div>
-            <p class="catalog-text">
 
-              SFATI FRINCO
-              Portugal
-              pharetra consectetur lnec port magn. Sed vehicula eros nequelectus.</p>
+
           </div>
+
+
+
+
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+
+
+
+
+
+  <section id="catalog">
+    <div class="container">
+
+      <h2 class="catalog-header">NEW MODELS</h2>
+      <div class="row">
+        <div class="col-md-3 col-sm-6">
+          <div class="image-section"><img src="~@/assets/front-flowers.png" alt="" class="img-circle">
+            <h4 class="catalog-text-header">Name</h4>
+          </div>
+          <p class="catalog-text">
+
+            SFATI FRINCO
+            Portugal
+            pharetra consectetur lnec port magn. Sed vehicula eros nequelectus.</p>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="image-section"><img src="~@/assets/front-flowers.png" alt="" class="img-circle">
+            <h4 class="catalog-text-header">Name</h4>
+          </div>
+          <p class="catalog-text">
+
+            SFATI FRINCO
+            Portugal
+            pharetra consectetur lnec port magn. Sed vehicula eros nequelectus.</p>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="image-section"><img src="~@/assets/front-flowers.png" alt="" class="img-circle">
+            <h4 class="catalog-text-header">Name</h4>
+          </div>
+          <p class="catalog-text">
+
+            SFATI FRINCO
+            Portugal
+            pharetra consectetur lnec port magn. Sed vehicula eros nequelectus.</p>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="image-section"><img src="~@/assets/front-flowers.png" alt="" class="img-circle">
+            <h4 class="catalog-text-header">Name</h4>
+          </div>
+          <p class="catalog-text">
+
+            SFATI FRINCO
+            Portugal
+            pharetra consectetur lnec port magn. Sed vehicula eros nequelectus.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 
@@ -329,6 +388,25 @@ export default {
   name: "App",
   components: {
 
+
+  }
+
+  data(){
+    return{
+      information:[{
+        title:'kyoka',
+        content:'hola kyoka'
+      },
+      {
+        title:'kyoka2',
+        content:'hola kyoka2'
+      },
+      {
+        title:'kyoka3',
+        content:'hola kyoka3'
+      }
+    ]
+    }
   }
 };
 </script>
@@ -362,7 +440,10 @@ section {
   margin-bottom: 70px;
 }
 
-
+.nomargins{
+  margin:0px;
+  padding:0px;
+}
 .row {
 
   padding: 0px;
@@ -387,6 +468,12 @@ section {
   text-transform: uppercase;
 }
 
+i {
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid grey;
+  padding: 10px;
+}
 
 #social-menu {
   position: fixed;
@@ -401,15 +488,7 @@ section {
   z-index: 2;
 }
 
-.fa {
-  padding: 20px;
-  font-size: 20px;
-  width: 60px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
-}
+
 
 .fa:hover {
   opacity: 0.7;
@@ -652,7 +731,17 @@ section {
 }
 
 
+#modeling-agency {
+  background: rgb(47, 2, 59);
+  background: radial-gradient(circle, rgba(47, 2, 59, 1) 0%, rgba(150, 43, 179, 1) 0%, rgba(47, 2, 59, 1) 88%);
+  padding: 30px;
 
+  color: white;
+  font-size: 1.0em;
+}
+.modeling-agency-content .row{
+  margin-bottom: 55px;
+}
 
 @media only screen and (max-width:600px) {
   #social-menu {
