@@ -44,7 +44,7 @@
 
   <section id="welcome-tour" class="container-fluid">
     <div class="container">
-      <div class="row">
+      <div class="row" style="padding-bottom:30px;">
         <div class="col-md-6">
           <h3 class="big-subheader">
             WELCOME TO OUR
@@ -62,266 +62,6 @@
     </div>
 
   </section>
-
-
-  <div id="news" class="container-fluid">
-    <div class="row">
-      <div class="col-12"></div>
-    </div>
-  </div>
-
-  <div id="projects-campagin" class="container">
-    <div class="row">
-      <div class="col-md-4 projects">
-        <img src="~@/assets/products1.jpg" class="img-projects" alt="" style="position:absolute;width:100%;height:100%;right:0.1%;">
-
-        <h1 class="title-projects">Products</h1>
-      </div>
-      <div class="col-md-4 projects">
-        <img src="~@/assets/front-flowers-nobackground.png" class="img-projects" alt="" style="position:absolute;max-width:400px;height:100%;right:0.1%;">
-
-        <h1 class="title-projects">Gallery</h1>
-      </div>
-      <div class="col-md-4 projects">
-        <img src="~@/assets/fitness3.jpg" class="img-projects" alt="" style="position:absolute;width:100%;height:100%;right:0.1%;">
-
-        <h1 class="title-projects">Work-out Plans</h1>
-      </div>
-    </div>
-
-
-  </div>
-
-
-
-
-
-  <section id="professional-advice">
-    <div class="container-fluid">
-      <div class="row">
-
-        <div class="col-sm-6"><img src="" alt="" class="img-circle"></div>
-        <div class="col-sm-6 profesional-ad-content">
-          <h3>PROFESSIONAL ADVICE</h3>
-          <h2> THE BEST MODEL AGENCY IN THE WORLD</h2>
-
-          <p class="professional-ad-text">Cras metus quam, condimentum ut venen rutrum ediam. Sed vehicula at r quis fringnll lobortis fermentum dignissim fringilla lacus orci et nunc. Sed dignissim, lectus nmattis faucibus, nisl nibh iaculis ante,
-            sit amet fringilla velit sed diam. Vestibulum vestibulum ut dui quis iaculis.</p>
-          <button class="btn btn-danger">APPLY NOW</button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <section id="specialities">
-    <div class="container-fluid">
-      <div class="specialities-headers">
-        <h2>SPECIALITIES OF OUR AGENCY
-
-        </h2>
-        <p>Praesent accumsan ac velit vitae auctor. Proin pharetra consectetur leo, nec porta magna varius nec. Sed vehicula eros neque, a venenatis est lobortis id. Aenean id lectus sit amet odio pellentesque gravida. Suspendisse potenti.
-
-        </p>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-
-
-
-
-
-          <div>
-
-            <div class="border"><span class='fas fa-heart' style='font-size:36px;float:left;background:red;padding:20px;border-radius:50%;color:white;margin-right:5px;'></span></div>
-
-            <div class="border">
-              <h3>EASY TO CONTACT
-              </h3>
-              <p style="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa doloremque laudantore veritatis.
-              </p>
-            </div>
-
-
-          </div>
-
-
-
-
-
-        </div>
-        <div class="col-md-4">
-          <div>
-
-            <div class="border"><span class='fas fa-heart' style='font-size:36px;float:left;background:red;padding:20px;border-radius:50%;color:white;margin-right:5px;'></span></div>
-
-            <div class="border">
-              <h3>EASY TO CONTACT
-              </h3>
-              <p style="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa doloremque laudantore veritatis.
-              </p>
-            </div>
-
-
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div>
-
-            <div class="border"><span class='fas fa-heart' style='font-size:36px;float:left;background:red;padding:20px;border-radius:50%;color:white;margin-right:5px;'></span></div>
-
-            <div class="border">
-              <h3>EASY TO CONTACT
-              </h3>
-              <p style="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa doloremque laudantore veritatis.
-              </p>
-            </div>
-
-
-          </div>
-        </div>
-
-        <div class="row mt-2">
-          <div class="col-md-4">
-            <div>
-
-              <div class="border"><span class='fas fa-heart' style='font-size:36px;float:left;background:red;padding:20px;border-radius:50%;color:white;margin-right:5px;'></span></div>
-
-              <div class="border">
-                <h3>EASY TO CONTACT
-                </h3>
-                <p style="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa doloremque laudantore veritatis.
-                </p>
-              </div>
-
-
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div>
-
-              <div class="border"><span class='fas fa-heart' style='font-size:36px;float:left;background:red;padding:20px;border-radius:50%;color:white;margin-right:5px;'></span></div>
-
-              <div class="border">
-                <h3>EASY TO CONTACT
-                </h3>
-                <p style="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa doloremque laudantore veritatis.
-                </p>
-              </div>
-
-
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div>
-
-              <div class="border"><i class='fas fa-heart' style='font-size:36px;float:left;background:red;padding:20px;border-radius:50%;color:white;margin-right:5px;'></i></div>
-
-              <div class="border">
-                <h3>EASY TO CONTACT
-                </h3>
-                <p style="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa doloremque laudantore veritatis.
-                </p>
-              </div>
-
-
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-
-
-  <section id="modeling-agency">
-    <div class="container-fluid">
-      <div class="row align-items-center">
-        <div class="col-lg-4 col-sm-12 border modeling-agency-content" >
-
-          <div class="row" v-for="(item,i) in information" :key="i">
-
-
-
-            <div class="border col-10" style="text-align:right;" >
-              <h3>{{item.title}}
-              </h3>
-              <p style="">{{item.content}}
-              </p>
-            </div>
-            <div class="col-2 border"><i class='fas fa-heart fa-3x border' style='background:red;border-radius:50%;color:white;padding:20%;'></i></div>
-
-
-
-          </div>
-
-
-
-
-
-
-        </div>
-        <div class="col-lg-4 border" style="width:100%;text-align:center;overflow-x:hidden;"><img src="~@/assets/front-flowers-nobackground.png" alt="" class="border" style="max-width:758px;max-height:700px;"></div>
-        <div class="col-lg-4 col-sm-12 border modeling-agency-content">
-
-          <div class="row">
-
-
-
-            <div class="border col-10" style="text-align:right;">
-              <h3>EASY TO CONTACT
-              </h3>
-              <p style="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa doloremque laudantore veritatis.
-              </p>
-            </div>
-            <div class="col-2 border"><i class='fas fa-heart fa-3x border' style='background:red;border-radius:50%;color:white;padding:20%;'></i></div>
-
-
-
-          </div>
-
-          <div class="row">
-
-
-
-            <div class="border col-10" style="text-align:right;">
-              <h3>EASY TO CONTACT
-              </h3>
-              <p style="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa doloremque laudantore veritatis.
-              </p>
-            </div>
-            <div class="col-2 border"><i class='fas fa-heart fa-3x border' style='background:red;border-radius:50%;color:white;padding:20%;'></i></div>
-
-
-
-          </div>
-
-          <div class="row">
-
-
-
-            <div class="border col-10" style="text-align:right;">
-              <h3>EASY TO CONTACT
-              </h3>
-              <p style="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa doloremque laudantore veritatis.
-              </p>
-            </div>
-            <div class="col-2 border"><i class='fas fa-heart fa-3x border' style='background:red;border-radius:50%;color:white;padding:20%;'></i></div>
-
-
-
-          </div>
-
-
-
-
-        </div>
-      </div>
-    </div>
-  </section>
-
-
 
 
 
@@ -375,6 +115,161 @@
   </section>
 
 
+  <div id="news" class="container-fluid">
+    <div class="row">
+      <div class="col-12"></div>
+    </div>
+  </div>
+
+
+
+  <section id="professional-advice">
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="col-sm-6"><img src="" alt="" class="img-circle"></div>
+        <div class="col-sm-6 profesional-ad-content">
+          <h3>PROFESSIONAL ADVICE</h3>
+          <h2> THE BEST MODEL AGENCY IN THE WORLD</h2>
+
+          <p class="professional-ad-text">Cras metus quam, condimentum ut venen rutrum ediam. Sed vehicula at r quis fringnll lobortis fermentum dignissim fringilla lacus orci et nunc. Sed dignissim, lectus nmattis faucibus, nisl nibh iaculis ante,
+            sit amet fringilla velit sed diam. Vestibulum vestibulum ut dui quis iaculis.</p>
+          <button class="btn btn-danger">APPLY NOW</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="projects-campagin" class="container">
+    <div class="row align-items-center">
+
+      <div class="col-lg-4 offset-lg-0 col-md-6 d-md-block projects ">
+        <img src="~@/assets/products1.jpg" class="img-projects" alt="" style="position:absolute;width:100%;height:100%;right:0.1%;">
+
+        <h1 class="title-projects">Products</h1>
+      </div>
+      <div class="col-lg-4 offset-lg-0 col-md-6 projects align-self-center">
+        <img src="~@/assets/front-flowers-nobackground.png" class="img-projects" alt="" style="position:absolute;max-width:400px;height:100%;right:0.1%;">
+
+        <h1 class="title-projects">Gallery</h1>
+      </div>
+      <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-3 projects">
+        <img src="~@/assets/fitness3.jpg" class="img-projects" alt="" style="position:absolute;width:100%;height:100%;right:0.1%;">
+
+        <h1 class="title-projects">Work-out Plans</h1>
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <section id="specialities">
+    <div class="container-fluid">
+      <div class="specialities-headers">
+        <h2>SPECIALITIES OF OUR AGENCY
+
+        </h2>
+        <p>Praesent accumsan ac velit vitae auctor. Proin pharetra consectetur leo, nec porta magna varius nec. Sed vehicula eros neque, a venenatis est lobortis id. Aenean id lectus sit amet odio pellentesque gravida. Suspendisse potenti.
+
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+
+
+
+
+
+          <div>
+
+            <div class="border"><span class='fas fa-heart' style='font-size:36px;float:left;background:red;padding:20px;border-radius:50%;color:white;margin-right:5px;'></span></div>
+
+            <div class="border">
+              <h3>EASY TO CONTACT
+              </h3>
+              <p style="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa doloremque laudantore veritatis.
+              </p>
+            </div>
+
+
+          </div>
+
+
+
+
+
+        </div>
+
+
+
+
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="modeling-agency">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-3 modeling-agency-content" >
+
+          <div class="row border" v-for="(item,i) in information" :key="i">
+
+
+
+            <div class="col-9 border" style="text-align:right;display:block; widht:100%;" >
+              <h3>{{item.title}}
+              </h3>
+              <p style="">{{item.content}} </p>
+            </div>
+            <div class="col-3 align-self-center" style="float:right;margin: 0 0 0 0%;"><i class='fas fa-heart fa-2x ' style='background:red;border-radius:50%;color:white;'></i></div>
+
+
+
+          </div>
+
+
+
+
+
+
+        </div>
+
+  <div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2 " style="width:100%;text-align:center;overflow-x:hidden;"><img src="~@/assets/front-flowers-nobackground.png" alt="" class="img" style="text-align:center;max-width:100%;margin:30px auto;padding:0px;display:block;"></div>
+
+
+
+        <div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2  modeling-agency-content" >
+
+          <div class="row border" v-for="(item,i) in information" :key="i">
+
+
+<div class="col-3 align-self-center" style="float:right;margin: 0 0 0 0%;"><i class='fas fa-heart fa-2x ' style='background:red;border-radius:50%;color:white;'></i></div>
+            <div class="col-9 border" style="display:block; widht:100%;" >
+              <h3>{{item.title}}
+              </h3>
+              <p style="">{{item.content}} </p>
+            </div>
+
+
+
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
 
 
   https://www.gracethemes.com/demo/modeling/
@@ -389,7 +284,7 @@ export default {
   components: {
 
 
-  }
+  },
 
   data(){
     return{
@@ -451,8 +346,8 @@ section {
 }
 
 .big-header {
-  font-size: 55px;
-  line-height: 55px;
+  font-size: 4.1em;
+  line-height:1.16;
   font-weight: 600;
   margin: 0 0 40px;
   color: #fff;
@@ -595,7 +490,7 @@ i {
 
 .projects {
 
-  width: 100%;
+
   height: 450px;
 
   /*  background-image: url('~@/assets/front-flowers-nobackground.png'); /* fallback */
@@ -754,6 +649,19 @@ i {
 
     display: hidden;
     grid-template: 1;
+
+  }
+
+  #professional-advice{
+
+
+
+      background-image: url('~@/assets/professional-advice.jpg');
+        background-attachment:inherit;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+
 
   }
 }
