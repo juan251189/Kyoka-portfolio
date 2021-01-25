@@ -183,9 +183,9 @@
 
           <div>
 
-            <div class="border"><span class='fas fa-heart' style='font-size:36px;float:left;background:red;padding:20px;border-radius:50%;color:white;margin-right:5px;'></span></div>
+            <div class=""><span class='fas fa-heart' style='font-size:36px;float:left;background:red;padding:20px;border-radius:50%;color:white;margin-right:5px;'></span></div>
 
-            <div class="border">
+            <div class="">
               <h3>EASY TO CONTACT
               </h3>
               <p style="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa doloremque laudantore veritatis.
@@ -212,14 +212,16 @@
 
   <section id="modeling-agency">
     <div class="container-fluid">
+      <h2 class="modeling-agency-header">MODELING AGENCY</h2>
       <div class="row align-items-center">
-        <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-3 modeling-agency-content" >
 
-          <div class="row border" v-for="(item,i) in information" :key="i">
+        <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-3 border modeling-agency-content-holder">
+
+          <div class="row mb-4" v-for="(item,i) in information" :key="i">
 
 
 
-            <div class="col-9 border" style="text-align:right;display:block; widht:100%;" >
+            <div class="col-9 modeling-agency-content">
               <h3>{{item.title}}
               </h3>
               <p style="">{{item.content}} </p>
@@ -237,17 +239,16 @@
 
         </div>
 
-  <div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2 " style="width:100%;text-align:center;overflow-x:hidden;"><img src="~@/assets/front-flowers-nobackground.png" alt="" class="img" style="text-align:center;max-width:100%;margin:30px auto;padding:0px;display:block;"></div>
+        <div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2 " style="width:100%;text-align:center;overflow-x:hidden;"><img src="~@/assets/front-flowers-nobackground.png" alt="" class="img modeling-agency-image"></div>
 
 
+        <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-3 modeling-agency-content border">
 
-        <div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2  modeling-agency-content" >
-
-          <div class="row border" v-for="(item,i) in information" :key="i">
+          <div class="row mb-4" v-for="(item,i) in information" :key="i">
 
 
-<div class="col-3 align-self-center" style="float:right;margin: 0 0 0 0%;"><i class='fas fa-heart fa-2x ' style='background:red;border-radius:50%;color:white;'></i></div>
-            <div class="col-9 border" style="display:block; widht:100%;" >
+            <div class="col-3 align-self-center" style="float:right;margin: 0 0 0 0%;"><i class='fas fa-heart fa-2x ' style='background:red;border-radius:50%;color:white;'></i></div>
+            <div class="col-9 " style="text-align:left;display:block; widht:100%;">
               <h3>{{item.title}}
               </h3>
               <p style="">{{item.content}} </p>
@@ -258,13 +259,47 @@
 
           </div>
 
+
+
+
+
+
         </div>
       </div>
     </div>
   </section>
 
 
+  <section id="counter-section">
 
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 col-lg-6" style="width:100%;text-align:center;overflow-x:hidden;"><img src="~@/assets/countersection.jpg" alt="" class="img modeling-agency-image"></div>
+        <div class="col-md-12 col-lg-6">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 style="text-align:center;width:100%;">WE HAVE BEST OF MODELS & TALENTS FROM THE FASHION INDUSTRY</h2>
+            </div>
+            <div class="col-6 border" >
+              <h3 class="big-header" style="color:black;">4,300
+
+              </h3>
+              <p class="">Models</p>
+            </div>
+            <div class="col-6 border" >
+              <h3 class="big-header" style="color:black;">4,300
+
+              </h3>
+              <p class="">Models</p>
+            </div>
+
+          </div>
+        </div>
+
+        div
+      </div>
+    </div>
+  </section>
 
 
 
@@ -286,21 +321,21 @@ export default {
 
   },
 
-  data(){
-    return{
-      information:[{
-        title:'kyoka',
-        content:'hola kyoka'
-      },
-      {
-        title:'kyoka2',
-        content:'hola kyoka2'
-      },
-      {
-        title:'kyoka3',
-        content:'hola kyoka3'
-      }
-    ]
+  data() {
+    return {
+      information: [{
+          title: 'kyoka',
+          content: 'Cras metus quam, condimentum ut venen rutrum ediam. Sed vehicula at rquis fringnull lobortis.'
+        },
+        {
+          title: 'kyoka2',
+          content: 'Cras metus quam, condimentum ut venen rutrum ediam. Sed vehicula at rquis fringnull lobortis.'
+        },
+        {
+          title: 'kyoka3',
+          content: 'Cras metus quam, condimentum ut venen rutrum ediam. Sed vehicula at rquis fringnull lobortis.'
+        }
+      ]
     }
   }
 };
@@ -335,10 +370,11 @@ section {
   margin-bottom: 70px;
 }
 
-.nomargins{
-  margin:0px;
-  padding:0px;
+.nomargins {
+  margin: 0px;
+  padding: 0px;
 }
+
 .row {
 
   padding: 0px;
@@ -347,7 +383,7 @@ section {
 
 .big-header {
   font-size: 4.1em;
-  line-height:1.16;
+  line-height: 1.16;
   font-weight: 600;
   margin: 0 0 40px;
   color: #fff;
@@ -634,8 +670,29 @@ i {
   color: white;
   font-size: 1.0em;
 }
-.modeling-agency-content .row{
-  margin-bottom: 55px;
+
+#modeling-agency .modeling-agency-header {
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+  font-size: 2.3em;
+  margin-bottom: 30px;
+
+}
+
+#modeling-agency .modeling-agency-content {
+  text-align: right;
+  display: block;
+  widht: 100%;
+}
+
+
+#modeling-agency .modeling-agency-image {
+  text-align: center;
+  max-width: 100%;
+  margin: 30px auto;
+  padding: 0px;
+  display: block;
 }
 
 @media only screen and (max-width:600px) {
@@ -652,17 +709,22 @@ i {
 
   }
 
-  #professional-advice{
+  #professional-advice {
 
 
 
-      background-image: url('~@/assets/professional-advice.jpg');
-        background-attachment:inherit;
-      background-repeat: no-repeat;
-      background-size: cover;
+    background-image: url('~@/assets/professional-advice.jpg');
+    background-attachment: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 
 
+  }
+
+
+  #counter-section {
+    min-height: 700px;
   }
 }
 
