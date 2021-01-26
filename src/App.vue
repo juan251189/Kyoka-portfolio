@@ -276,17 +276,31 @@
       <div class="row">
         <div class="col-md-12 col-lg-6" style="width:100%;text-align:center;overflow-x:hidden;"><img src="~@/assets/countersection.jpg" alt="" class="img modeling-agency-image"></div>
         <div class="col-md-12 col-lg-6">
-          <div class="row">
-            <div class="col-md-12">
-              <h2 style="text-align:center;width:100%;">WE HAVE BEST OF MODELS & TALENTS FROM THE FASHION INDUSTRY</h2>
+          <div class="row justify-content-center">
+            <div class="col-md-12 mb-4">
+              <h2 style="text-align:left;width:100%;">WE HAVE BEST OF MODELS & TALENTS FROM THE FASHION INDUSTRY</h2>
+              <hr style="width:20%;background-color:#FF3434;height:2px;float:left;">
             </div>
-            <div class="col-6 border" >
+            <div class="col-md-6 col-sm-8 border counter-section-content-margin" style="text-align:center;">
+            
               <h3 class="big-header" style="color:black;">4,300
 
               </h3>
               <p class="">Models</p>
             </div>
-            <div class="col-6 border" >
+            <div class="col-md-6 col-sm-8 border" >
+              <h3 class="big-header" style="color:black;">4,300
+
+              </h3>
+              <p class="">Models</p>
+            </div>
+            <div class="col-md-6 col-sm-8  border" >
+              <h3 class="big-header" style="color:black;">4,300
+
+              </h3>
+              <p class="">Models</p>
+            </div>
+            <div class="col-md-6 col-sm-8  border" >
               <h3 class="big-header" style="color:black;">4,300
 
               </h3>
@@ -296,11 +310,29 @@
           </div>
         </div>
 
-        div
+
       </div>
     </div>
   </section>
 
+
+
+  <section id="take-chance">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 col-md-8 take-chance-content">
+          <h3>PROFESSIONAL ADVICE</h3>
+          <h2> BECOME A MODEL </h2>
+
+          <p class="take-chance-text">Cras metus quam, condimentum ut venen rutrum ediam. Sed vehicula at r quis fringnll lobortis fermentum dignissim fringilla lacus orci et nunc. Sed dignissim, lectus nmattis faucibus, nisl nibh iaculis ante,
+            sit amet fringilla velit sed diam. Vestibulum vestibulum ut dui quis iaculis.</p>
+          <button class="btn btn-danger">APPLY NOW</button>
+        </div>
+        <div class="col-sm-6 col-md-4"><img src="" alt="" class="img-circle"></div>
+
+      </div>
+    </div>
+  </section>
 
 
 
@@ -695,6 +727,64 @@ i {
   display: block;
 }
 
+
+
+#take-chance {
+
+
+  background-image: url('~@/assets/professional-advice.jpg');
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  min-height: 600px;
+  padding: 70px 20px;
+
+
+}
+
+
+
+.take-chance-text {
+  font-size: 1.2em;
+  font-family: 'Assistant', sans-serif;
+  font-weight: bold;
+
+  color: white;
+
+  text-shadow: 1px 1px rgb(223, 184, 65);
+
+}
+
+
+.take-chance-content h2 {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 600;
+  margin: 0 0 40px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.take-chance-content h3 {
+  font-size: 25px;
+  text-shadow: 0.5px 0.5px rgb(68, 68, 75);
+
+  font-weight: 700;
+  margin: 0 0 40px;
+  color: #FE3333;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
 @media only screen and (max-width:600px) {
   #social-menu {
 
@@ -723,9 +813,8 @@ i {
   }
 
 
-  #counter-section {
-    min-height: 700px;
-  }
+
+
 }
 
 @media (min-width: 1200px) {}
