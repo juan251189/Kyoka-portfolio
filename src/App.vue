@@ -282,7 +282,7 @@
               <hr style="width:20%;background-color:#FF3434;height:2px;float:left;">
             </div>
             <div class="col-md-6 col-sm-8 border counter-section-content-margin" style="text-align:center;">
-            
+
               <h3 class="big-header" style="color:black;">4,300
 
               </h3>
@@ -318,8 +318,11 @@
 
 
   <section id="take-chance">
-    <div class="container-fluid">
+
+    <div class="container">
       <div class="row">
+
+
         <div class="col-sm-12 col-md-8 take-chance-content">
           <h3>PROFESSIONAL ADVICE</h3>
           <h2> BECOME A MODEL </h2>
@@ -335,6 +338,22 @@
   </section>
 
 
+
+  <section id="people-say">
+
+    <div class="container">
+      <div class="row justify-content-center">
+
+
+        <div class="col-7 people-say-content text-center">
+          <h2>PEOPLE SAY</h2>
+
+        </div>
+
+
+      </div>
+    </div>
+  </section>
 
 
 
@@ -739,26 +758,41 @@ i {
   background-repeat: no-repeat;
   background-size: cover;
 
-  min-height: 600px;
-  padding: 70px 20px;
+  min-height: 500px;
 
+
+
+position:relative;
 
 }
 
+
+#take-chance::after{
+  content:'';
+  position:absolute;
+  top:0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color:rgb(0, 0, 0,0.6);
+}
 
 
 .take-chance-text {
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-family: 'Assistant', sans-serif;
-  font-weight: bold;
+  font-weight: 700;
 
   color: white;
 
-  text-shadow: 1px 1px rgb(223, 184, 65);
+
 
 }
 
-
+.take-chance-content{
+  padding:30px;
+  z-index:2;
+}
 .take-chance-content h2 {
   font-size: 55px;
   line-height: 55px;
@@ -778,6 +812,71 @@ i {
   text-transform: uppercase;
 }
 
+
+
+#people-say {
+
+
+  background-image: url('~@/assets/professional-advice.jpg');
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  min-height: 500px;
+
+
+
+position:relative;
+
+}
+
+
+#people-say::after{
+  content:'';
+  position:absolute;
+  top:0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color:rgb(0, 0, 0,0.6);
+}
+
+
+.people-say-text {
+  font-size: 1.3em;
+  font-family: 'Assistant', sans-serif;
+  font-weight: 700;
+
+  color: white;
+
+
+
+}
+
+.people-say-content{
+  padding:50px 30px;
+  z-index:2;
+}
+.people-say-content h2 {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 600;
+  margin: 0 0 40px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.people-say-content h3 {
+  font-size: 25px;
+  text-shadow: 0.5px 0.5px rgb(68, 68, 75);
+
+  font-weight: 700;
+  margin: 0 0 40px;
+  color: #FE3333;
+  text-transform: uppercase;
+}
 
 
 
