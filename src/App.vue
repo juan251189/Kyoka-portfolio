@@ -215,7 +215,7 @@
       <h2 class="modeling-agency-header">MODELING AGENCY</h2>
       <div class="row align-items-center">
 
-        <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-3 border modeling-agency-content-holder">
+        <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-3 modeling-agency-content-holder">
 
           <div class="row mb-4" v-for="(item,i) in information" :key="i">
 
@@ -242,7 +242,7 @@
         <div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2 " style="width:100%;text-align:center;overflow-x:hidden;"><img src="~@/assets/front-flowers-nobackground.png" alt="" class="img modeling-agency-image"></div>
 
 
-        <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-3 modeling-agency-content border">
+        <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-3 modeling-agency-content">
 
           <div class="row mb-4" v-for="(item,i) in information" :key="i">
 
